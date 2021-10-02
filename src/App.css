@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:rgb(32, 82, 156);
+}
+
+.converter {
+  margin: 12rem auto;
+  width: 32rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: azure;
+  border-radius: 0.7rem;
+  line-height: 2rem;
+}
+
+.converter h1 {
+  margin-bottom: 1.5rem;
+}
+
+.converter input {
+  text-align: center;
+  width: 7rem;
+  height: 2rem;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: azure;
+  margin: 0 2rem 1rem 0;
+  transition: all 0.2s linear;
+}
+
+.box:hover, .box:focus{
+  box-shadow: 0rem 0.1rem 0.2rem rgb(180, 180, 180);
+}
+
+.converter span{
+  margin-left: 2rem;
+}
